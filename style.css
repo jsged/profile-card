@@ -309,4 +309,9 @@ h2 {
     color: #CCCCCC;
     font-family: 'Consolas', monospace;
     margin-left: 2px;
+
+}
+
+.a {
+    text-decoration: none;
 }
