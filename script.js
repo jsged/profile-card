@@ -101,7 +101,7 @@ clear      - Clear terminal screen`;
                     }
                 } else {
                     output.textContent = `'${currentCommand}' is not recognized as an internal or external command
-                    Type "help" to view all available commands.`;
+Type "help" to view all available commands.`;
                     terminalContent.appendChild(output);
                 }
             }
@@ -146,4 +146,5 @@ clear      - Clear terminal screen`;
         updateCurrentLine();
     }
 });
+
 
