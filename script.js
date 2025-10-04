@@ -25,15 +25,15 @@ clear      - Clear terminal screen`;
             return null;
         },
         'youtube': () => { // Example: youtube.com/@mehdikamb
-            window.open('https://youtube.com/@yourchannel', '_blank');
+            window.open('https://planned.jsged.com', '_blank');
             return 'Opening YouTube channel...';
         },
         'github': () => { // Example: github.com/mehdikamb
-            window.open('https://github.com/@yourprofile', '_blank');
+            window.open('https://planned.jsged.com', '_blank');
             return 'Opening GitHub profile...';
         },
         'instagram': () => { // Example: instagram.com/mehdikamb
-            window.open('https://instagram.com/@yourprofile', '_blank');
+            window.open('https://planned.jsged.com', '_blank');
             return 'Opening Instagram profile...';
         }
     };
@@ -146,5 +146,6 @@ Type "help" to view all available commands.`;
         updateCurrentLine();
     }
 });
+
 
 
