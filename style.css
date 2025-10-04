@@ -317,10 +317,16 @@ h2 {
     color: hsl(187 85% 53%);
 }
 
+.jsged-link:visited {
+    text-decoration: none;
+    color: hsl(187 85% 53%);
+}
+
 .jsged-link:hover {
     text-decoration: none;
     color: hsl(171.5, 85%, 52.9%);
 }
+
 
 
 
