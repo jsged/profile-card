@@ -312,8 +312,12 @@ h2 {
 
 }
 
-.jsged-link {
+.jsged-link:link {
     text-decoration: none;
+}
+
+.jsged-link:hover {
+    text-decoration: underline;
 }
 
 
