@@ -25,15 +25,15 @@ clear      - Clear terminal screen`;
             return null;
         },
         'youtube': () => { // Example: youtube.com/@mehdikamb
-            window.open('https://planned.jsged.com', '_blank');
+            window.open('https://youtube.com/@yourchannel', '_blank');
             return 'Opening YouTube channel...';
         },
         'github': () => { // Example: github.com/mehdikamb
-            window.open('https://planned.jsged.com', '_blank');
+            window.open('https://github.com/@yourprofile', '_blank');
             return 'Opening GitHub profile...';
         },
         'instagram': () => { // Example: instagram.com/mehdikamb
-            window.open('https://planned.jsged.com', '_blank');
+            window.open('https://instagram.com/@yourprofile', '_blank');
             return 'Opening Instagram profile...';
         }
     };
@@ -145,11 +145,3 @@ clear      - Clear terminal screen`;
         updateCurrentLine();
     }
 });
-
-
-
-
-
-
-
-
