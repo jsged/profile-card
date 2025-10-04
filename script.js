@@ -100,10 +100,7 @@ clear      - Clear terminal screen`;
                         terminalContent.appendChild(output);
                     }
                 } else {
-                    output.textContent = `
-                    '${currentCommand}' is not recognized as an internal or external command.
-                    Type "help" to see all available commands.
-                    `;
+                    output.textContent = `'${currentCommand}' is not recognized as an internal or external command. Type "help" to see all available commands.`;
                     terminalContent.appendChild(output);
         
             }
@@ -148,6 +145,7 @@ clear      - Clear terminal screen`;
         updateCurrentLine();
     }
 });
+
 
 
 
