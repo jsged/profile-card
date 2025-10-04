@@ -25,15 +25,15 @@ clear      - Clear terminal screen`;
             return null;
         },
         'youtube': () => { // Example: youtube.com/@mehdikamb
-            window.open('https://youtube.com/@yourchannel', '_blank');
+            window.open('https://planned.jsged.com', '_blank');
             return 'Opening YouTube channel...';
         },
         'github': () => { // Example: github.com/mehdikamb
-            window.open('https://github.com/@yourprofile', '_blank');
+            window.open('https://planned.jsged.com', '_blank');
             return 'Opening GitHub profile...';
         },
         'instagram': () => { // Example: instagram.com/mehdikamb
-            window.open('https://instagram.com/@yourprofile', '_blank');
+            window.open('https://planned.jsged.com', '_blank');
             return 'Opening Instagram profile...';
         }
     };
@@ -102,6 +102,8 @@ clear      - Clear terminal screen`;
                 } else {
                     output.textContent = `'${currentCommand}' is not recognized as an internal or external command.`;
                     terminalContent.appendChild(output);
+                    output.textContent = `Type "help" to see all available commands.`;
+                    terminalContent.appendChild(output);
                 }
             }
 
@@ -145,3 +147,4 @@ clear      - Clear terminal screen`;
         updateCurrentLine();
     }
 });
+
